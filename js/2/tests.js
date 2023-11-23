@@ -20,12 +20,12 @@ tr.it("'nurses run' => true", () => {
   assert.deepStrictEqual(isPalindrome("nurses run"), true);
 });
 
-tr.it("'mama mia' => false", () => {
-  assert.deepStrictEqual(isPalindrome("neuquen"), false);
-});
-
 tr.it("'nothing' => false", () => {
   assert.deepStrictEqual(isPalindrome("nothing"), false);
+});
+
+tr.it("'mama mia' => false", () => {
+  assert.deepStrictEqual(isPalindrome("neuquen"), false);
 });
 
 tr.printResults();
