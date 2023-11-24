@@ -1,5 +1,5 @@
 import unittest
-from main import merge
+from merge_arrays import merge
 
 
 class TestSum(unittest.TestCase):

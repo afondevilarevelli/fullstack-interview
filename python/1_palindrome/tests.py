@@ -1,5 +1,5 @@
 import unittest
-from main import is_palindrome
+from palindrome import is_palindrome
 
 
 class TestSum(unittest.TestCase):
