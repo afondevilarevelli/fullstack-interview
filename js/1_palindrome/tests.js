@@ -1,6 +1,6 @@
 const assert = require("assert");
 const TestRunner = require("../utils");
-const isPalindrome = require("./main");
+const isPalindrome = require("./palindrome");
 
 const tr = TestRunner();
 
